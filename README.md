@@ -14,6 +14,7 @@ Extension to support Galleria JavaScript image gallery in Yii.
 * Added srcPrefix and srcPrefixThumb (example use normal image path and thimbnail image path)
 
 ## Requirements
+
 Tested with Yii 1.1.11, but should work with previous versions too
 
 ## Install
@@ -94,5 +95,5 @@ $this->widget('galleria', array(
 ```
 
 ## Resources
-[Yii galleria](https://github.com/magefad/galleria/ "Yii galleria")
-[Galleria site](http://galleria.io/ "Galleria site")
+* [Yii galleria](https://github.com/magefad/galleria/ "Yii galleria")
+* [Galleria site](http://galleria.io/ "Galleria site")
