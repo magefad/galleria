@@ -34,8 +34,7 @@ Add import of galleria extension in your config/main.php file:
 
 ### Add to image model:
 
-~~~
-[php]
+```php
 	public function behaviors()
 	{
 		return array(
@@ -95,4 +94,5 @@ $this->widget('galleria', array(
 ```
 
 ## Resources
+[Yii galleria](https://github.com/magefad/galleria/ "Yii galleria")
 [Galleria site](http://galleria.io/ "Galleria site")
