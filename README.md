@@ -95,5 +95,5 @@ $this->widget('galleria', array(
 ```
 
 ## Resources
-* [Yii galleria](https://github.com/magefad/galleria/ "Yii galleria")
+* [Yii galleria](https://github.com/magefad/galleria/ "Yii galleria extension")
 * [Galleria site](http://galleria.io/ "Galleria site")
