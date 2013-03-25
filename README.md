@@ -55,7 +55,7 @@ Add import of galleria extension in your config/main.php file:
 ```php
 $photos = new CActiveDataProvider('GalleryPhoto');
 
-$this->widget('galleria', array(
+$this->widget('Galleria', array(
 	'dataProvider' => $photos,
 	'imagePrefixSeparator' => '-',//if set 'imagePrefix' => '' in behaviors; separate - imagePrefix{Separator}image
 	'srcPrefix' => '/uploads/gallery/',
@@ -74,7 +74,7 @@ $this->widget('galleria', array(
 ```php
 $photos = new CActiveDataProvider('GalleryPhoto');
 
-$this->widget('galleria', array(
+$this->widget('Galleria', array(
 	'dataProvider' => $photos,
 	'dataProvider' => $data,
 	'binding' => array(
@@ -86,7 +86,7 @@ $this->widget('galleria', array(
 ## Only widget, without Dataprovider and behaviour etc
 
 ```php
-<?php $this->beginWidget('galleria');?>
+<?php $this->beginWidget('Galleria');?>
 	<img src="/uploads/gallery/1.jpg" alt="Description of image" title="Title of image" />
 	<img src="/uploads/gallery/2.jpg" />
 	<img src="/uploads/gallery/3.jpg" />
